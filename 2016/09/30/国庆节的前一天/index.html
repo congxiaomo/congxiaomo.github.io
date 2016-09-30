@@ -5,16 +5,37 @@
   
   <title>国庆节的前一天 | 陌陌墨</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="国庆节的一天这是一个段落">
+  <meta name="description" content="国庆节的一天一.script 的引入方式
+       1.头部引入
+       2.外部引入（可以在头部，可以在body）
+       3.body闭标签前引入（也叫作内部引入），一般写法
+      js的调试方式
+              1.alert（）
+              2.console.log()
+              3.document.write()">
 <meta property="og:type" content="article">
 <meta property="og:title" content="国庆节的前一天">
 <meta property="og:url" content="http://yoursite.com/2016/09/30/国庆节的前一天/index.html">
 <meta property="og:site_name" content="陌陌墨">
-<meta property="og:description" content="国庆节的一天这是一个段落">
-<meta property="og:updated_time" content="2016-09-30T03:11:00.000Z">
+<meta property="og:description" content="国庆节的一天一.script 的引入方式
+       1.头部引入
+       2.外部引入（可以在头部，可以在body）
+       3.body闭标签前引入（也叫作内部引入），一般写法
+      js的调试方式
+              1.alert（）
+              2.console.log()
+              3.document.write()">
+<meta property="og:updated_time" content="2016-09-30T03:36:31.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="国庆节的前一天">
-<meta name="twitter:description" content="国庆节的一天这是一个段落">
+<meta name="twitter:description" content="国庆节的一天一.script 的引入方式
+       1.头部引入
+       2.外部引入（可以在头部，可以在body）
+       3.body闭标签前引入（也叫作内部引入），一般写法
+      js的调试方式
+              1.alert（）
+              2.console.log()
+              3.document.write()">
   
     <link rel="alternate" href="/atom.xml" title="陌陌墨" type="application/atom+xml">
   
@@ -89,13 +110,263 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="国庆节的一天"><a href="#国庆节的一天" class="headerlink" title="国庆节的一天"></a>国庆节的一天</h2><p>这是一个段落</p>
+        <h2 id="国庆节的一天"><a href="#国庆节的一天" class="headerlink" title="国庆节的一天"></a>国庆节的一天</h2><pre><code>一.script 的引入方式
+       1.头部引入
+       2.外部引入（可以在头部，可以在body）
+       3.body闭标签前引入（也叫作内部引入），一般写法
+      js的调试方式
+              1.alert（）
+              2.console.log()
+              3.document.write()
+
+      js的数据：
+      1. 常量
+      2. 变量（容器）
+
+      变量定义：
+      var a = 0;
+      命名规范：
+      1. 由数字，字母，下划线和$组成。并且数字不能开头
+      2. 不能与系统保留字同名，无二义性
+      3. 变量名不能重复
+      4. 见名知意，驼峰法。匈牙利命名法（一般用于元素命名）
 
 
+      数据类型：
+      1. number 数字
+      2. string 字符串
+      3. boolean 布尔
+      4. none 空对象
+      5. object 对象
+      6. undefined 未定义
+      7. NAN （not a number）
+      8. [element collection]                9. [node list]                10. [object object] json
+      11. float 浮点数
+      12. int 整数
+
+      类型转化：
+      显示类型转换
+      Number();
+      string();
+      a.toString();
+      parseInt();
+      parseFloat();
+
+      隐形类型转换:
+      + 字符串连接符
+
+      运算符：
+      1. 算术运算符  + - * / %
+      2. 赋值运算符 = （拷贝）
+      3. 复合运算符 += -= /= %= *= 
+       //  a += 3;
+       // // a = a + 3;
+
+      4. 自增运算
+      a++, ++a, a--, --a
+
+      5. 条件运算符
+      &gt;, &lt;, &gt;=, &lt;=,!=,===,!==
+
+      与布尔值连用
+      ==， ===  区别： 是否判断类型
+      ！= ， ！== 不全等
+
+      6. 逻辑运算符（连接多个条件）
+      &amp;&amp; ，与    ||，或    ！非
+      &amp;&amp;： 一假即假
+      ||： 一真即真
+      ！=： 真真假假
+
+      注意短路情况
+      7.三目运算符
+      条件 ？ 表达式1 ：表达式2
+
+      表达式： 由常量，变量和运算符组成的式子
+      表达式都有返回值！！
+      a = 3;
+
+      二，分支结构
+      满足某一条件，就执行某一段代码
+      var a = &quot;买一斤包子&quot;；
+      if (条件) {
+
+      };
+      如果..就..否则..
+      // if (true) {} else {};
+      var a = 1;
+      if (条件1 a &lt; 3) {
+              }else if (条件2 a &lt; 5) {
+                      }else if (条件3 a &lt; 8) {
+
+      }...
+      else {
+
+      }
+
+      switch..case 
+      多分支结构
+      case 后面的值和switch(条件)
+      决定了到底走那个分支
+
+      注意： break
+      default 可以不写
+
+
+      三，循环结构
+      满足某一条件，就重复做某一件事
+      帮助我们做重复的任务
+
+      1. while 循环
+      while(循环条件){
+              循环体；
+      }
+      注意：while 循环需要控制好循环增量的变化
+      while 循环通常用于不知道循环次数的情况下
+
+      2.do...while循环
+      do{
+              循环体；
+      }while(循环条件);
+      不管满不满足条件，都会执行一次循环体中的代码
+
+      3.for 循环
+      for(循环增量初始化;循环条件;循环增量的变化){
+              循环体
+      }
+
+      4. 循环控制
+      break: 跳出本层循环
+      continue: 跳出本次循环
+
+      循环嵌套:
+      for (var i = 0; i &lt; 3; i++) {
+              for (var j = 0; j &lt; i + 1; j++) {
+                      打印一个小块
+              };
+      };
+
+      四. 数组
+      能够保存多个(一组)数据的变量
+      var arr =  Array();
+      var arr = [10,1];
+
+      遍历：
+      获取到数组中每一个元素
+      循环遍历(index 下标)
+
+      数组对象的方法
+      push(): 从尾部给数组添加元素
+      unshift(); 从头部给数组添加元素
+      shift(); 从头部删除元素
+      pop(); 从尾部删除元素
+
+      splice(起始位置，长度,添加的元素1，元素2...);
+
+      arr.concat(); 数组拼接
+      sort(fn): 数组排序，默认ASCII排序
+      reverse(): 数组倒序
+
+      键值对
+      var json1 = {a: 3, b: 5, c:&quot;hello&quot;};
+      json1.a
+      json1[&quot;a&quot;]
+      遍历：
+      for(var key in json1){
+              key
+              json1[key];
+      }
+
+      五 .函数
+      具有一定功能的代码段
+       从结构分类
+       1. 无参数，无返回值
+       2. 有参数，无返回值
+       3. 无参数，有返回值
+       4. 有参数，有返回值
+       function fn1(num1,num2){
+               return num1 + num 
+       从命名上分类：
+       1. 命名函数
+       2. 匿名函数
+       应用一： 事件绑定
+       应用二： 让一个变量保存函数
+
+       定时器
+       1. 单词定时器
+       var timer = setTimeout(fn,1000  函数，时间);
+       clearTimeout(timer);
+
+       2. 循环定时器
+       var timer = setInterval(fn,1000);
+       clearInterval(timer);
+
+       eval(string);
+       string  一定是可以执行的Js代码
+
+
+       六. 系统对象
+       1. string对象
+       var maStr = new String(&quot;hello&quot;);
+       var str = &quot;hello&quot;;
+
+       str.length; 字符串长度
+       str.charAt(下标); 查询下标出的字符
+       str.searth(&quot;e&quot;); 查询字符所在的下标，返回第一次出现的位置，如果找不到返回-1
+       str.concat(); 
+               数组拼接，也可以用于字符串
+       str.indexOf();
+               类似于search，可用于数组
+       str.lastIndexOf();
+               从后向前检索，返回首次出现的下标
+       str.split(&quot;&quot;); 
+               通过所给的字符分割字符串，分割后生成一个数组
+       join(): 数组方法，把数组中的元素，用所给字符链接起来
+       str.substr(下标位置，范围); 
+               取子字符串
+       str.substring(开始位置，结束位置):
+       str.slice(开始位置，结束位置)；数组方法
+       str.replace(string1,string2);  
+               字符串替换 把string1 替换成 string2
+       a.toSting(); 类型转化；
+
+       Date对象
+      // 年份获取
+              var year = now.getFullYear();
+</code></pre><p>//                        alert(year);<br>                        // 月份获取<br>                        // 0-11<br>                        var month = now.getMonth() + 1;<br>//                        alert(month);<br>                        // 天<br>                        var day = now.getDate();<br>//                        alert(day);</p>
+<pre><code>// 星期
+var weekday = now.getDay();
+</code></pre><p>//                        alert(weekday);<br>                        // 小时<br>                        // 24小时<br>                        var hour = now.getHours();<br>//                        alert(hour);<br>                        // 分钟<br>                        var mins = now.getMinutes();<br>//                        alert(mins);<br>                        // 秒<br>                        var second = now.getSeconds();<br>//                        alert(second);<br>                        // 毫秒<br>                        var millSecond = now.getMilliseconds();<br>//                        alert(millSecond);</p>
+<pre><code>// 从1970年1月1日到现在的毫秒数
+// 时间戳
+var time = now.getTime();
+alert(time);
+
+// 获取到指定时间
+var future = new Date(1949,9,1,8,30,60);
+alert(future);
+
+七.DOM：
+1. 获取元素
+document.getElementById(); 通过Id获取
+document.getElementsByTagName(); 通过标签名获取
+document.querySelector(); 通过css获取一个
+document.querySelectorAll(); 通过css获取多个
+
+2.oDiv。style.backgroundColor = &quot;&quot;;
+注意： 给属性负值时， 是字符串
+oInput.checked
+
+3. className
+可以通过js动态改变元素的class属性
+
+4. this 这个
+通常情况下我们用于循环事件绑定，this指代被绑定的对象
+</code></pre>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/30/国庆节的前一天/" data-id="citp70k2c0001a17vr92gnkbe" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/09/30/国庆节的前一天/" data-id="citp7xn1o0000cl7vrw3y9u2s" class="article-share-link">Share</a>
       
       
     </footer>
