@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    
+
+    <title>
+      Mongoose的创建 | 陌陌墨 
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+      <meta name="author" content="陌羽">
+    
+    
+
+    <meta name="description" content="#Mongoose的创建
+##一、创建schemas创建schemas的方式：
+1 var userSchema = new mongoose.Schema({
+2     name: String,
+3     email: String,
+4     createdOn: Date
+5 });
+schemas中的数据类型有以下几种：
+• String
+• Number
+• Date
+• Boo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mongoose的创建 | 陌陌墨">
+<meta property="og:url" content="http://yoursite.com/2016/09/14/创建scheme/index.html">
+<meta property="og:site_name" content="陌陌墨">
+<meta property="og:description" content="#Mongoose的创建
+##一、创建schemas创建schemas的方式：
+1 var userSchema = new mongoose.Schema({
+2     name: String,
+3     email: String,
+4     createdOn: Date
+5 });
+schemas中的数据类型有以下几种：
+• String
+• Number
+• Date
+• Boo">
+<meta property="og:updated_time" content="2016-11-18T03:36:36.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mongoose的创建 | 陌陌墨">
+<meta name="twitter:description" content="#Mongoose的创建
+##一、创建schemas创建schemas的方式：
+1 var userSchema = new mongoose.Schema({
+2     name: String,
+3     email: String,
+4     createdOn: Date
+5 });
+schemas中的数据类型有以下几种：
+• String
+• Number
+• Date
+• Boo">
+    
+    
+    
+      <link rel="icon" type="image/x-icon" href="/favicon.png">
+    
+    <link rel="stylesheet" href="/css/uno.css">
+    <link rel="stylesheet" href="/css/highlight.css">
+    <link rel="stylesheet" href="/css/archive.css">
+    <link rel="stylesheet" href="/css/china-social-icon.css">
+
+</head>
+<body>
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    
+
+<header class="panel-cover panel-cover--collapsed">
+
+
+  <div class="panel-main">
+
+  
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        
+
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage">陌陌墨</a></h1>
+        <hr class="panel-cover__divider" />
+
+        
+        <p class="panel-cover__description">
+          一步两步……一步两步
+        </p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+
+              
+                
+                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">首页</a></li>
+              
+                
+                <li class="navigation__item"><a href="/about" title="" class="">关于</a></li>
+              
+                
+                <li class="navigation__item"><a href="/archive" title="" class="">归档</a></li>
+              
+
+            </ul>
+          </nav>
+
+          <!-- ----------------------------
+To add a new social icon simply duplicate one of the list items from below
+and change the class in the <i> tag to match the desired social network
+and then add your link to the <a>. Here is a full list of social network
+classes that you can use:
+
+    icon-social-500px
+    icon-social-behance
+    icon-social-delicious
+    icon-social-designer-news
+    icon-social-deviant-art
+    icon-social-digg
+    icon-social-dribbble
+    icon-social-facebook
+    icon-social-flickr
+    icon-social-forrst
+    icon-social-foursquare
+    icon-social-github
+    icon-social-google-plus
+    icon-social-hi5
+    icon-social-instagram
+    icon-social-lastfm
+    icon-social-linkedin
+    icon-social-medium
+    icon-social-myspace
+    icon-social-path
+    icon-social-pinterest
+    icon-social-rdio
+    icon-social-reddit
+    icon-social-skype
+    icon-social-spotify
+    icon-social-stack-overflow
+    icon-social-steam
+    icon-social-stumbleupon
+    icon-social-treehouse
+    icon-social-tumblr
+    icon-social-twitter
+    icon-social-vimeo
+    icon-social-xbox
+    icon-social-yelp
+    icon-social-youtube
+    icon-social-zerply
+    icon-mail
+
+-------------------------------->
+
+<!-- add social info here -->
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner entry">
+            
+
+<article class="post-container post-container--single">
+
+  <header class="post-header">
+    
+    <h1 class="post-title">Mongoose的创建</h1>
+
+    
+
+    <div class="post-meta">
+      <time datetime="2016-09-14" class="post-meta__date date">2016-09-14</time> 
+
+      <span class="post-meta__tags tags">
+
+          
+
+          
+
+      </span>
+    </div>
+    
+    
+
+  </header>
+
+  <section id="post-content" class="article-content post">
+    <p>#Mongoose的创建</p>
+<p>##一、创建schemas<br>创建schemas的方式：</p>
+<pre><code>1 var userSchema = new mongoose.Schema({
+2     name: String,
+3     email: String,
+4     createdOn: Date
+5 });
+</code></pre><p>schemas中的数据类型有以下几种：</p>
+<p>• String</p>
+<p>• Number</p>
+<p>• Date</p>
+<p>• Boolean</p>
+<p>• Buffer</p>
+<p>• ObjectId</p>
+<p>• Mixed</p>
+<p>• Array</p>
+<p>特别需要说明一下ObjectId类型和Mixed类型以及Array类型，在schemas中声明这几种类型的方式如下：</p>
+<pre><code>1 //ObjectId就类似于唯一键值
+ 2 projectSchema.add({
+ 3     owner: mongoose.Schema.Types.ObjectId
+ 4 });
+ 5 //混合类型，顾名思义，就是说里面可以放置任意类型的数据，有两种方式创建该类型数    据
+ 6 //方式一：直接赋予一个空的字面量对象
+ 7 vardjSchema= new mongoose.Schema({
+ 8     mixedUp: {}
+ 9 });
+10 //方式二：根据Schemas.Types中值来赋予
+11 vardjSchema= new mongoose.Schema({
+12     mixedUp: Schema.Types.Mixed
+13 });
+14 //Array类型数据有两种创建方式，一种是简单数组创建：
+15 var userSchema = new mongoose.Schema({
+16     name: String,
+17     emailAddresses: [String]
+18 });
+19 //第二种方式就是复杂类型数据数组，例如我们可以再数组中添加不同类型的schemas:
+20 var emailSchema = new mongoose.Schema({
+21     email: String,
+22     verified: Boolean
+23 });
+24 var userSchema = new mongoose.Schema({
+25     name: String,
+26     emailAddresses: [emailSchema]
+27 });
+28 //注意：如果定义一个空的数据的话，则会创建为一个混合类型数据的数组：
+29 var emailSchema = new mongoose.Schema({
+30     email: String,
+31     verified: Boolean
+32 });
+33 var userSchema = new mongoose.Schema({
+34     name: String,
+35     emailAddresses: [emailSchema]
+36 });
+</code></pre><p>我们可以给schema创建静态方法，这个静态方法将来会用在Model中，创建该静态方法需要在创建完成schema之后，在Model编译之前:</p>
+<pre><code>1 projectSchema.statics.findByUserID = function (userid, callback) {
+2   this.find({ createdBy: userid }, &apos;_id projectName&apos;, {sort: &apos;modifiedOn&apos;}, callback);
+3 };
+</code></pre><p>在其对应的模型创建完成并编译后，我们就可以像下面这样来调用该静态方法了：<br>Model.findByUserID(userid,callback);<br>该静态方法会返回一个JSON格式的数据，这在我们使用AJAX技术来加载网页数据的时候会比较方便，就像下面这样：</p>
+<pre><code>//路由规则：app.get(&apos;/project/byuser/:userid&apos;, project.byUser);
+exports.byUser = function (req, res) {
+console.log(&quot;Getting user projects&quot;);
+if (req.params.userid){
+    Project.findByUserID(req.params.userid,function (err, projects) {
+        if(!err){
+            console.log(projects);
+            res.json(projects);
+        }else{
+            console.log(err);
+            res.json({&quot;status&quot;:&quot;error&quot;, &quot;error&quot;:&quot;Error finding projects&quot;});
+        }
+    });
+}else{
+    console.log(&quot;No user id supplied&quot;);
+    res.json({&quot;status&quot;:&quot;error&quot;, &quot;error&quot;:&quot;No user id supplied&quot;});
+}
+};
+</code></pre>
+  </section>
+
+  
+  
+</article>
+
+<!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="post-创建scheme" data-title="Mongoose的创建" data-url="http://yoursite.com/2016/09/14/创建scheme/"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"congxiaomo"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- 多说公共JS代码 end -->
+            <footer class="footer">
+
+    <span class="footer__copyright">&copy; 2014-2015. | 由<a href="https://hexo.io/">Hexo</a>强力驱动 | 主题<a href="https://github.com/someus/huno">Huno</a></span>
+    
+</footer>
+        </div>
+    </div>
+
+    <!-- js files -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/scale.fix.js"></script>
+    
+
+    
+
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript"> 
+        $(document).ready(function(){
+            MathJax.Hub.Config({ 
+                tex2jax: {inlineMath: [['[latex]','[/latex]'], ['\\(','\\)']]} 
+            });
+        });
+    </script>
+
+
+    
+
+    <script src="/js/awesome-toc.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.awesome_toc({
+                overlay: true,
+                contentId: "post-content",
+            });
+        });
+    </script>
+
+
+    
+    
+    <!--kill ie6 -->
+<!--[if IE 6]>
+  <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
+<![endif]-->
+
+</body>
+</html>
